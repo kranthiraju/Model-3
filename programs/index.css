@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-white
+{
+    padding: 2px;
+    transition: 1s all;
+}
+.nav-white ul
+{
+    list-style: none;
+}
+.nav-white ul li
+{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+#logo-head
+{
+    margin-left: 28%;
+}
+#sub
+{
+    float: right;
+    margin-right: 20px;
+}
+.nav-black
+{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+.nav-black ul
+{
+    list-style: none;
+}
+.nav-black ul li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.active
+{
+    color: red;
+}
+.sticky
+{
+    display: none;
+}
+.top
+{
+    padding: 0;
+}
+.top img
+{
+    width: 50%;
+    margin-top: 55px;
+}
+.top h1
+{
+    font-size: 50px;
+    margin-left: 50px;
+    width: 45%;
+    text-transform: capitalize;
+}
+.top h3
+{
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+.top hr
+{
+    width: 50px;
+    margin-left: 55%;
+    margin-top: -30%;
+}
+.top p
+{
+    font-size: 20px;
+    margin-left: 59%;
+    margin-top: -20px;
+}
+.top ul
+{
+    list-style: none;
+    margin-left: 55%;
+}
+.top ul li
+{
+    display: block;
+    margin-bottom: 50px;
+}
+.top ul li h1
+{
+    font-size: 30px;
+    width: 500px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.top ul li p
+{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.top h4
+{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 61%;
+    text-transform: uppercase;
+}
+
+.trend
+{
+    padding: 50px;
+}
+.trend hr
+{
+    width: 50px;
+    float: left;
+}
+.trend p
+{
+    font-size: 20px;
+    margin-top: -0%;
+    margin-left: 60px;
+}
+.trend h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.trend h3
+{
+    float: right;
+    margin-right: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: -70px;
+}
+.trend ul
+{
+    list-style: none;
+}
+.trend ul li
+{
+    display: inline-block;
+    margin-left: 35px;
+}
+.trend ul li h1
+{
+    font-size: 30px;
+    width: 350px;
+    margin-bottom: 0;
+}
+.trend ul li p
+{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 350px;
+    margin-left: 0;
+}
+.trend ul li h3
+{
+    font-size: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.trend ul li img
+{
+    height: 200px;
+    width: 300px;
+    margin-left: 350px;
+    margin-top: -235px;
+}
+
+
+.focus
+{
+    background-color: rgb(255, 226, 226);
+    height: 60%;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.focus img
+{
+    width: 40%;
+    height: 500px;
+}
+.focus hr
+{
+    width: 50px;
+    margin-top: -30%;
+}
+.focus p
+{
+    font-size: 20px;
+    margin-left: 52%;
+    margin-top: -1.5%;
+}
+.focus h1
+{
+    font-size: 50px;
+    margin-left: 50%;
+    text-transform: capitalize;
+    width: 300px;
+}
+.focus ul
+{
+    list-style: none;
+    margin-left: 48%;
+}
+.focus ul li
+{
+    display: inline-block;
+    width: 300px;
+    text-transform: capitalize;
+}
+.focus ul li p
+{
+    margin-left: 0;
+}
+.focus h3
+{
+    margin-left: 50%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.flight
+{
+    padding: 50px;
+}
+.flight hr
+{
+    width: 50px;
+    float: left;
+    margin-top: 30px;
+}
+.flight p
+{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.flight h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+.flight ul
+{
+    list-style: none;
+}
+.flight ul li
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+.flight ul li img
+{
+    width: 300px;
+    height: auto;
+}
+.flight ul li h2
+{
+    margin-left: 50px;
+    width: 300px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.flight ul li h3
+{
+    font-size: 15px;
+    margin-left: -300px;
+    padding-top: 80px;
+}
+.flight ul li p
+{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: -120px;
+    width: 300px;
+    padding-top: 100px;
+}
+.flight .flight-right
+{
+    margin-top: -125%;
+    margin-left: 65%;
+}
+.flight .flight-right img
+{
+    padding-bottom: 50px;
+}
+.flight-right ul li
+{
+    margin-bottom: 2px;
+    margin-left: -50px;
+}
+.flight-right ul li img
+{
+    width: 200px;
+    height: 100px;
+}
+.flight-right ul li h2
+{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 300px;
+}
+.flight-right ul li h3
+{
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.brand
+{
+    background-color: rgb(255, 226, 226);
+    padding: 30px;
+    margin: 100px;
+}
+.brand hr
+{
+    width: 50px;
+    margin-top: 30px;
+    float: left;
+}
+.brand p
+{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.brand h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.brand h2
+{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    float: right;
+    text-decoration: underline;
+    margin-top: -80px;
+}
+.brand ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.brand ul li
+{
+    display:inline-flex;
+    border: 1;
+    margin-left: 15px;
+}
+.brand ul li ul
+{
+    list-style: none;
+    height: 300px;
+    padding: 0;
+}
+.brand ul li ul li
+{
+    display: block;
+}
+.brand ul li ul li img
+{
+    width: 280px;
+}
+.brand ul li ul li h1
+{
+    font-size: 20px;
+    width: 280px;
+    text-transform: capitalize;
+}
+.brand ul li ul li p
+{
+    width: 280px;
+    margin: 0;
+}
+.style
+{
+    background: none;
+    margin-bottom: 500px;
+}
+.style .style-left
+{
+    float: left;
+}
+.style .style-left img
+{
+    width: 60%;
+}
+.style .style-left h1
+{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 45%;
+    text-transform: capitalize;
+}
+.style .style-left p
+{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.style .style-right
+{
+    background: none;
+    height: 400px;
+}
+.style .style-right hr
+{
+    width: 50px;
+    margin-right: 35%;
+    float: right;
+    margin-top: -50.5%;
+}
+.style .style-right p
+{
+    float: right;
+    margin-top: -51%;
+    margin-right: 30%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.style .style-right h1
+{
+    float: right;
+    margin-top: -49%;
+    margin-right: 22%;
+}
+.style .style-right ul
+{
+    position: absolute;
+    list-style: none;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.style .style-right ul li
+{
+    display: block;
+    height: 200px;
+}
+.style .style-right ul li img
+{
+    height: 100px;
+    width: auto;
+}
+.style .style-right ul li h1
+{
+    font-size: 20px;
+    float: right;
+    width: 300px;
+    margin-top: 2%;
+    margin-right: 50px;
+    text-transform: capitalize;
+}
+.style .style-right ul li p
+{
+    font-size: 15px;
+    width: 350px;
+    margin: 0;
+    margin-top: -0px;
+}
+.table
+{
+    padding: 50px;
+}
+.table hr
+{
+    width: 50px;
+    float: left;
+    margin-top: 30px;
+}
+.table p
+{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.table ul
+{
+    list-style: none;}
+.table ul li
+{
+    display:inline-block;
+    margin-left: 30px;
+    border-style:groove;
+    text-align: center;
+    border-width: thin;
+    margin-bottom: 50px;
+}
+.table ul li h1
+{
+    font-size: 40px;
+    width: 300px;
+    text-transform: capitalize;
+}
+.table ul #head
+{
+    border-style: none;
+}
+.table ul li img
+{
+    height: 200px;
+    width: 300px;
+}
+.table ul li h2
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    padding-bottom: 20px;
+}
+.table ul li p
+{
+    font-size: 20px;
+    font-weight: lighter;
+    border-top-style: groove;
+    border-top-width:thin;
+    margin-left: -0px;
+}
+
+
+
+
+
+
+
+.air
+{
+    padding: 1px;
+    margin-top: 200px;
+}
+.air div
+{
+    background-color: rgb(255, 226, 226);
+    width: 90%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.air div hr
+{
+    width: 50px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 100px;
+}
+.air div p
+{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 160px;
+}
+.air div h1
+{
+    font-size: 50px;
+    margin-left: 100px;
+    text-transform: capitalize;
+    width: 400px;
+}
+.air div h3
+{
+    font-size: 15px;
+    margin-left: 100px;
+    font-weight: lighter;
+    width: 350px;
+    margin-top: 50px;
+}
+.air div h2
+{
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.air img
+{
+    height: 500px;
+    width: auto;
+    float: right;
+    margin-top: -400px;
+}
+
+
+.point
+{
+    background-color: white;
+    padding: 10px;
+    margin-top: 200px;
+}
+.point hr
+{
+    width: 50px;
+    float: left;
+    margin-top: 30px;
+}
+.point p
+{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 60px;
+}
+.point ul
+{
+    list-style: none;
+    margin-top: 50px;
+}
+.point ul li
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+.point img
+{
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+}
+.point #txt
+{
+    position:absolute;
+    color: white;
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: -200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 250px;
+}
+.recv-news
+{
+    background-color: rgb(255, 255, 255);
+}
+.recv-news img
+{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.recv-news h1
+{
+    font-size: 50px;
+    text-transform: capitalize;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+.recv-news .email-in
+{
+    background-color: cadetblue;
+    margin-left: 50%;
+    margin-top: -22.5%;
+    padding: 20px;
+    padding-bottom: 100px;
+    height: 200px;
+}
+.recv-news .email-in hr
+{
+    width: 40px;
+    background-color: black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.recv-news .email-in h5
+{
+    margin-left: 80px;
+}
+.recv-news .email-in h2
+{
+    font-weight: bold;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.recv-news .email-in input
+{
+    background-color: white;
+    border: 0;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    text-align: left;
+    height: 40px;
+    margin-left: 30px;
+    z-index: 99;
+}
+.recv-news .email-in button
+{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    font-weight: lighter;
+    height: 40px;
+    width: 100px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.recv-news .email-in h3
+{
+    margin-left: 30px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+.recv-news .email-in ul
+{
+    list-style: none;
+    margin-top: -150px;
+}
+.recv-news .email-in ul li
+{
+    display: inline-block;
+    margin-left: 50px;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+}
+.footer
+{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+}
+.footer .copyrht
+{
+    background-color: rgb(0, 0, 0);
+}
+.footer .copyrht #l
+{
+    float: left;
+    margin-left: 50px;
+    color: white;
+}
+.footer .copyrht span
+{
+    color: red;
+}
+.footer .copyrht #r
+{
+    float: right;
+    margin-right: 50px;
+    color: white;
+}
+.foot-nav-black
+{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.foot-nav-black ul
+{
+    list-style: none;
+}
+.foot-nav-black ul li
+{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
